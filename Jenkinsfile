@@ -4,7 +4,7 @@ pipeline{
         PROJECT_ID = 'yhibmasorn'
         DOCKER_IMAGE = 'gcr.io/${PROJECT_ID}/backend_cloud:${BUILD_NUMBER}'
         REGION = 'asia-southeast1'
-        SERVICE_NAME = 'backend_cloud-api-service'
+        SERVICE_NAME = 'backend-cloud-api-service'
     }
 
     stages{
